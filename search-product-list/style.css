@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(208, 208, 208);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container {
+    width: 375px;
+    height: 520px;
+    background-color: rgb(246, 246, 246);
+    overflow-y: scroll;
+    /* border:2px solid red ; */
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgb(0, 0, 0, 0.06);
+}
+
+#container::-webkit-scrollbar {
+    display: none;
+}
+
+#container form {
+    border: 1px solid rgb(0, 2, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 45px;
+    margin: 5px;
+
+}
+
+#container form input {
+    border: none;
+    box-shadow: none;
+    border-radius: none;
+    width: 100%;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+#container form i {
+    padding-left: 10px;
+}
+
+.product {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    /* border: 1.5px solid rgba(0, 0, 0, 0.61); */
+    cursor: pointer;
+    margin: 5px 0;
+
+}
+
+.product img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.product .p-details {
+    /* border: 2px solid grey; */
+    width: 100%;
+    margin: 5px;
+}
+
+.product-list {
+    padding: 20px 0;
+}

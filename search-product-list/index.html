@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product-list</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section id="container">
+      <form>
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          id="search-product"
+          placeholder="Search product"
+          onkeyup="searchProduct()"
+        />
+      </form>
+      <div class="product-list" id="product-list">
+        <div class="product">
+          <img src="./product_image/product1.jpeg" alt="error-t-Shirt " />
+          <div class="p-details">
+            <span>T-Shirt Bule Color</span>
+            <h4>$45</h4>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./product_image/bodycare.jpeg" alt="error-t-Shirt " />
+          <div class="p-details">
+            <span>body care</span>
+            <h4>$34</h4>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./product_image/facewash.jpeg" alt="error-t-Shirt " />
+          <div class="p-details">
+            <span>facewash</span>
+            <h4>$12</h4>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./product_image/shoes.jpeg" alt="error-t-Shirt " />
+          <div class="p-details">
+            <span>shoes</span>
+            <h4>$100</h4>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./product_image/smartwatch.jpeg" alt="error-t-Shirt " />
+          <div class="p-details">
+            <span>smartwatch</span>
+            <h4>$55</h4>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./product_image/headset.jpeg" alt="error-t-Shirt " />
+          <div class="p-details">
+            <span>headset</span>
+            <h4>$405</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
